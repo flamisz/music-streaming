@@ -6,23 +6,28 @@ use App\Music\MusicGateway;
 
 class SpotifyMusicGateway implements MusicGateway
 {
-    public function getArtistTopTracks($artistId) {
+    public function getArtistTopTracks($artistId)
+    {
         return true;
     }
 
-    public function createPlaylist($name) {
+    public function createPlaylist($name)
+    {
         return rand(1, 100);
     }
 
-    public function addItemsToPlaylist($playlistId, $items) {
+    public function addItemsToPlaylist($playlistId, $items)
+    {
         return true;
     }
 
-    public function deletePlaylist($playListId) {
+    public function deletePlaylist($playListId)
+    {
         return true;
     }
 
-    public function playPlaylist($playListId) {
+    public function playPlaylist($playListId)
+    {
         return true;
     }
 }
