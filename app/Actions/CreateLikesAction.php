@@ -13,7 +13,7 @@ class CreateLikesAction
     private $saveLikesAction;
 
     public function __construct(
-        DeleteOldLikes $deleteOldLikes,
+        DeleteOldLikesAction $deleteOldLikes,
         SaveLikesAction $saveLikesAction
     ) {
         $this->deleteOldLikes = $deleteOldLikes;

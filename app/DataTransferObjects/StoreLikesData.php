@@ -2,7 +2,7 @@
 
 namespace App\DataTransferObjects;
 
-use App\Actions\DeleteOldLikes;
+use App\Actions\DeleteOldLikesAction;
 use App\DataTransferObjects\LikeData;
 use App\Http\Requests\StoreLikeRequest;
 use Spatie\DataTransferObject\DataTransferObject;

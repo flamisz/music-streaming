@@ -2,7 +2,7 @@
 
 namespace App\Actions;
 
-class DeleteOldLikes
+class DeleteOldLikesAction
 {
     public function __invoke()
     {
